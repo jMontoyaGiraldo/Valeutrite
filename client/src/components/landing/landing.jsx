@@ -32,7 +32,7 @@ const [carta , setCarta] = useState(false)
       {
          carta ?
          <div ref={menuRef}>
-         <span className={carta ? estilos.showCarta :estilos.carta}>
+         <span >
         Mi Amor, Hoy me encuentro aquí, frente a estas palabras que intentan
         expresar lo que yace en lo más profundo de mi pecho. 
          <p></p>
