@@ -21,6 +21,10 @@
     justify-self: center;
     width: 2rem;
     height: auto;
+
+    & img {
+        width: 10rem;
+    }
 }
 
 

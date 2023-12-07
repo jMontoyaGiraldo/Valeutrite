@@ -1,6 +1,6 @@
-import estilos from "./Landing.module.css";
-import { useState , useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import image from './pngwing.com (1).png'
+import estilos from './landing.module.css';
 
 function Landing() {
 const [carta , setCarta] = useState(false)
@@ -22,13 +22,13 @@ const [carta , setCarta] = useState(false)
   return (
     <div className={estilos.landing}>
       <h1>Para Ti</h1>
-      <h2><button onClick={()=>{setCarta(!carta)}}><img src={image} alt="carta para ti" style={{width: '10rem'}} /></button></h2>
+      <h2><button onClick={()=>{setCarta(!carta)}}><img src={image} alt="carta para ti" /></button></h2>
       {
          carta ?
          <div ref={menuRef}>
          <span >
-        Mi Amor, Hoy me encuentro aquí, frente a estas palabras que intentan
-        expresar lo que yace en lo más profundo de mi pecho. 
+         Mi Amor, Hoy me encuentro aquí, frente a estas palabras que intentan
+         expresar lo que yace en lo más profundo de mi pecho. 
          <p></p>
          Sé que nuestras historias no siempre han sido fáciles, que las cicatrices del pasado aún
          se hacen sentir, pero también sé que el amor siempre me guía a ti por más que lo intente evitar.
