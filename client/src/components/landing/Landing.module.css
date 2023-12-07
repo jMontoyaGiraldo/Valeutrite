@@ -10,9 +10,8 @@
     background-position: center;
     background-repeat: no-repeat;
 
-}
 
-.landing span {
+    & span {
     position: absolute;
     background-color: #E58B8F;
     width: 80%;
@@ -28,6 +27,21 @@
     font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
 }
 
+
+& h1 {
+    grid-column: 2 / 2 span;
+    grid-row: 2 / 1 span ;
+}
+
+& h2 {
+    grid-column: 2 / 1 span;
+    grid-row: 3 / 1 span ;
+    justify-self: center;
+    width: 2rem;
+    height: auto;
+}
+
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -37,19 +51,6 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-.landing  h1 {
-    grid-column: 2 / 2 span;
-    grid-row: 2 / 1 span ;
-}
-
-.landing  h2 {
-    grid-column: 2 / 1 span;
-    grid-row: 3 / 1 span ;
-    justify-self: center;
-    width: 2rem;
-    height: auto;
 }
 
 
