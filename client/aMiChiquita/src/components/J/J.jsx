@@ -1,10 +1,10 @@
-import estilos from "./Landing.module.css";
+import estilos from "./J.module.css";
 
 
 function J() {
 
   return (
-    <div className={estilos.landing}>
+    <div className={estilos.J}>
      <h1>QUIERO SER EL TUYO</h1>
     </div>
   );
