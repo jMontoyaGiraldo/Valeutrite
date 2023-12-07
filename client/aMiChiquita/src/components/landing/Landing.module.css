@@ -1,0 +1,57 @@
+.landing{
+    border: solid 0.4rem #000000;
+    display: grid ;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    grid-template-rows: 9rem 9rem 9rem 9rem ;
+    width: auto;
+    height: inherit;
+    margin: 1rem;
+    background-image: url('../../imag/kisspng-silhouette-couple-couple-5abb91fceeca96.7274201115222420449781.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+& h1 {
+    grid-column: 2 / 2 span;
+    grid-row: 2 / 1 span ;
+}
+
+& h2 {
+    grid-column: 2 / 1 span;
+    grid-row: 3 / 1 span ;
+    justify-self: center;
+    width: 2rem;
+    height: auto;
+}
+
+
+& span {
+    position: absolute;
+    background-color: #E58B8F;
+    width: 80%;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    padding: 2rem;
+    border-radius: 15px; /* Aumenta el radio de borde para un aspecto más suave */
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra para resaltar el modal */
+    transform: translateY(-20px);
+    animation: fadeIn 0.5s ;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+

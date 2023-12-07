@@ -1,0 +1,32 @@
+.allNav{
+    width: auto;
+    background-color: #FFFFFF;
+    display:flex;
+    justify-self: end;
+    margin: 1rem;
+    position: fixed;
+}
+
+.Nav_Bar{
+   
+    border: solid 0.4rem #000000;
+
+    & button {
+        background-color: #FFFFFF;
+        color: #080808;
+        margin: 1.5rem;
+        font-size: small
+    };
+
+    & .botones{
+        align-self: self-end;
+    }
+}
+.logo {
+    background-color: #D64048;
+    padding-block:1.5rem;
+    padding-inline:1.5rem ;
+    font-size: small;
+    border: solid 0.4rem #000000;
+    align-self: center
+};

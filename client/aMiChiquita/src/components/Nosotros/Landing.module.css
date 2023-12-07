@@ -1,0 +1,21 @@
+.landing{
+    border: solid 0.4rem #000000;
+    display: grid ;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    grid-template-rows: 9rem 9rem 9rem 9rem ;
+    width: auto;
+    height: inherit;
+    margin: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+
+& h1 {
+    grid-column: 2 / 5 span;
+    grid-row: 2 / 1 span ;
+}
+
+}
+
+
+
+
