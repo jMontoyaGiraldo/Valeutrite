@@ -1,6 +1,6 @@
 import estilos from "./Landing.module.css";
 import { useState , useRef, useEffect } from "react";
-import image from '../../imag/pngwing.com (1).png'
+import image from '../../assets/pngwing.com (1).png'
 
 function Landing() {
 const [carta , setCarta] = useState(false)
