@@ -14,16 +14,10 @@ const [carta , setCarta] = useState(false)
     };
    
       document.addEventListener("mousedown", closeMenuOnOutsideClick);
-    
-
-    // Limpieza del efecto cuando el componente se desmonta
     return () => {
       document.removeEventListener("mousedown", closeMenuOnOutsideClick);
     };
   }, [carta]);
-
-    
-
 
   return (
     <div className={estilos.landing}>
